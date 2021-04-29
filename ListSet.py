@@ -4,7 +4,9 @@
 
 if __name__ == '__main__':
     n = int(input())
-    arr = list(map(int, input().split()))
+    arr = set(map(int, input().split()))
+
+    arr = {int(x) for x in input().split()}
     
     resultSet = set(arr)
     resultArr = list(resultSet)

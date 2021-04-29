@@ -20,4 +20,12 @@ if __name__ == '__main__':
                     
     print(result)
                 
-                
+    max_x = 5
+    max_y = 5
+    max_z = 5
+    n = 5
+
+    result = [
+        [x, y, z] for x in range(max_x) for y in range(max_y) for z in range(max_z) if (x + y + z) != n
+    ]       
+          

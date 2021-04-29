@@ -21,3 +21,4 @@ if __name__ == '__main__':
     for i in L:
         if i[1] == ScoreL[1]:
             print (i[0])
+
